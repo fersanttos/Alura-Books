@@ -6,9 +6,14 @@
     <title>Alura Books</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="carrosel.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <header class="cabecalho">
@@ -36,33 +41,60 @@
             </li>
         </ul>
         <img src="./img/image copy.png" alt="Logo da Alurabooks" class="container-imagem">
-        <a href="#"><img src="img/image copy 2.png" alt="Meus favoritos"></a>
-        <a href="#"><img src="img/image copy 3.png" alt="Sacola de comprar"></a>
-        <a href="#"><img src="img/image copy 4.png" alt="Meu perfil"></a>
+        </div>
+        <div class="container">
+        <a href="#"><img src="img/image copy 2.png" alt="Meus favoritos" class="container-imagem"></a>
+        <a href="#"><img src="img/image copy 3.png" alt="Sacola de comprar" class="container-imagem"></a>
+        <a href="#"><img src="img/image copy 4.png" alt="Meu perfil" class="container-imagem"></a>
         </div>
     </header>
+
     <section class="banner">
         <h2 class="banner-titulo">Já sabe por onde começar?</h2>
         <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner-pesquisa" placeholder="Qual será sua proxima leitura?">
     </section>
+
     <section class="carrosel">
         <h2 class="carrosel-titulo">Novos lançamentos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+     <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <div class="card">
+    <div class="card-descricao">
+        <div class="descricao">
+            <h3 class="descricao-titulo">Talvez você também se interesse por ...</h3>
+            <h2 class="descricao-tiutlo-livro">Angular 11 e Firebase</h2>
+            <p class="descricao-titulo">Construindo uma aplicacão integrada com a plataforma do Google</p>
+        </div>
+    </div>
+    </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.
-
-js"></script>
-<script> 
-<div class ="swiper">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
 const swiper = new Swiper('.swiper', {
-spaceBetween: 10,
-slidesPerView: 3,
-pagination: {
-el: '.swiper-pagination',
-type: 'bullets',
+  spaceBetween: 10,
+  slidesPerView: 3,
+  pagination: {
+  el: '.swiper-pagination',
+  type: 'bullets',
 },
-</div> 
-});
+ });
 </script>
 </body>
 </html> 
