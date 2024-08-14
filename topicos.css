@@ -1,22 +1,22 @@
-.topicos{
+.topicos {
     background-color: var(--azul-degrade);
     text-align: center;
     padding: 1em 0;
 }
-.topicos-titulo{
+.topicos-titulo {
     color: var(--branco);
     font-weight: 300;
     margin-bottom: 1em;
 }
-.topicos-lista{
+.topicos-lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.topicos-item{
+.topicos-item {
     margin: 2em 0.5em;
 }
-.topicos-link{
+.topicos-link {
     color:var(--branco);
     padding: 1em;
     background-color: var(--laranja);

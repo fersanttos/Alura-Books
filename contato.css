@@ -1,9 +1,9 @@
-.contato{
+.contato {
     background-color: var(--branco);
     padding: 1em;
 }
 .contato-titulo,
-.contato-texto{
+.contato-texto {
     background: var(--azul-degrade);
     -webkit-backgraund-clip: text;
     -webkit-text-fill-color: transparent;
@@ -18,4 +18,10 @@
     border: 1px solid var(--azul);
     width: 90%;
     color: var(--azul);
+}
+.contato-email::placeholder {
+    font-family: var(--fonte-principal);
+    color:var(--azul);
+    background: url("./img/mail_black_24dp\ 1.svg") no-repeat;
+    padding-left: 2em;
 }
