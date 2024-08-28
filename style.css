@@ -16,33 +16,4 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
-}
-h1 {
-    background-color: white;
-}
-.descricao-titulo {
-    color: var(--laranja);
-    font-weight: 700;
-}
-.descricao-titulo {
-    color: var(--azul);
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0, 5em 0;
-}
-.descricao-texto {
-    font-size: 14px;
-}
-.botoes-item {
-    margin: 0 0.5em;
-}
-.botoes-ancora {
-    background-color: var(--laranja);
-    padding: 1em 2.2em;
-    color: var(--branco);
-    font-weight: 700;
-    text-decoration: none;
-}
+}  
