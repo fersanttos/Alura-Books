@@ -2,7 +2,7 @@
     background-color: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 2.5m
+    padding: 2.5em 2em;
 }
 
 .banner-titulo {
@@ -25,12 +25,12 @@
 }
 
 .banner-pesquisa::placeholder {
-    font-family: var(--font-principal);
+    font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400; 
     text-align: center;
     color: var(--branco);
-    background: url("./img/copy.5.png");
+    background: url("./img/copy.5.png") no-repeat;
     background-position: 1em;
  }
 

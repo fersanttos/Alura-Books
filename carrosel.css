@@ -10,9 +10,9 @@
 .swiper-slide img {
     width: 100;
 }
-.swiper-botton-prew, 
-.swiper-botton-next {
-    display: none;
+.swiper-button-prev, 
+.swiper-button-next {
+  display: none;
 }
 .swiper-pagination {
     position: initial;
@@ -51,7 +51,7 @@
     font-size: 14px;
 }
 .botoes-item{
-    margin: 0 0 5em;
+    margin: 0 0.5em;
 }
 .botoes-ancora{
     background-color: var(--laranja);
